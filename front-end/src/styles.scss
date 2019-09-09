@@ -1,0 +1,65 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {height: 100%; background: #F1F5F8;}
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #EA4335;
+    text-align: left;
+  }
+
+legend {
+  width: auto;
+  color: #EA4337;
+  margin-left: 10px;
+  font-family: "Arial";
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  padding: 5px;
+}
+
+.pin:hover {color: #EA4335;}
+.pinActive {color: #EA4335 !important;}
+
+.input-align {margin: -40px 10px 0 10px !important; font-size: 13px;}
+.input-5 { width: 5%; }
+.input-7 { width: 7%; }
+.input-10 { width: 10%; }
+.input-12 { width: 12%; }
+.input-14 { width: 14%; }
+.input-15 { width: 15%; }
+.input-20 { width: 20%; }
+.input-22 { width: 22%; }
+.input-23 { width: 23%; }
+.input-24 { width: 24%; }
+.input-25 { width: 25%; }
+.input-31 { width: 31%; }
+.input-32 { width: 32%; }
+.input-30 { width: 30%; }
+.input-33 { width: 33%; }
+.input-35 { width: 35%; }
+.input-40 { width: 40%; }
+.input-425 { width: 42.5%;}
+.input-45 { width: 45%; }
+.input-50 { width: 50%; }
+.input-55 { width: 55%; }
+.input-60 { width: 60%; }
+.input-61 { width: 61%; }
+.input-64 { width: 64%; }
+.input-65 { width: 65%; }
+.input-70 { width: 70%; }
+.input-75 { width: 75%; }
+.input-80 { width: 80%; }
+.input-85 { width: 85%; }
+.input-90 { width: 90%; }
+.input-92 { width: 92%; }
+.input-93 { width: 93%; }
+.input-95 { width: 95%; }
+.input-97 { width: 97%; }
+.input-98 { width: 98%; }
+.input-100 { width: 100%; }

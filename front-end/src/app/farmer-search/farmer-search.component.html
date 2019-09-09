@@ -1,0 +1,31 @@
+<div class="corpo">
+
+  <fieldset *ngIf="responseFarmer">
+
+    <legend>Search Farmer</legend>
+
+    <div *ngFor="let farmer of responseFarmer.data">
+      <mat-form-field appearance="standard" color="accent" class="form-container input-align input-30">
+        <input matInput placeholder="Nome ou Doc"> {{farmer.first_name}}
+        <span matPrefix style="cursor: pointer; color: rgb(119, 119, 119);">
+          <mat-icon >search</mat-icon>
+        </span>
+      </mat-form-field>
+
+      <mat-form-field appearance="standard" color="accent" class="form-container input-align input-65">
+        <input matInput placeholder="Destinatário"> {{farmer.last_name}}
+      </mat-form-field>
+
+      <mat-form-field appearance="standard" color="accent" class="form-container input-align input-30">
+        <input matInput placeholder="Doc #"> {{farmer.id}}
+      </mat-form-field>
+
+      <mat-form-field appearance="standard" color="accent" class="form-container input-align input-65">
+        <input matInput placeholder="Endereço"> {{farmer.email}}
+      </mat-form-field>
+    </div>
+
+
+  </fieldset>
+
+</div>
